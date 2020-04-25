@@ -22,6 +22,9 @@
               href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
               integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" 
               crossorigin="anonymous">
+        <link 
+              rel="stylesheet" 
+              href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <script 
               src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" 
               crossorigin="anonymous">
@@ -31,14 +34,36 @@
         <header id="heading">
             <h1>Nicholas: A History</h1>
             <h6>By: His brother, Jonathan</h6>
+            <nav class="navbar navbar-expand-sm sticky-top" id="biositeNav">
+                <ul class="navbar-nav nav-fill w-100">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#earlyLife">Early Life</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#teenYears">Teenage Years</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#collegeYears">College Years</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#armyService">Army Service</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#texasYears">Texas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#presentTime">Present</a>
+                    </li>
+                </ul>  
+            </nav>
         </header>
         <main id="content">
-            <div class="row">
+            <div class="row" id="earlyLife">
                 <div class="col-md-4">
                     <h3>Early Life</h3>
                 </div>
                 <div class="col-md-8">
-
+                
                 </div>
             </div>
             <div class="row">
@@ -58,7 +83,7 @@
                     </p>
                 </div>
             </div>
-            <div class="row">
+            <div class="row" id="teenYears">
                 <div class="col-md-4">
                     <h3>Teenage Years</h3>
                 </div>
@@ -80,7 +105,7 @@
                     </p>
                 </div>
             </div>
-            <div class="row">
+            <div class="row" id="collegeYears">
                 <div class="col-md-4">
                     <h3>College</h3>
                 </div>
@@ -101,7 +126,7 @@
                     </p>
                 </div>
             </div>
-            <div class="row">
+            <div class="row" id="armyService">
                 <div class="col-md-4">
                     <h3>Army Service</h3>
                 </div>
@@ -119,7 +144,7 @@
                     </p>
                 </div>
             </div>
-            <div class="row">
+            <div class="row" id="texasYears">
                 <div class="col-md-4">
                     <h3>Texas</h3>
                 </div>
@@ -143,7 +168,7 @@
                     </p>
                 </div>
             </div>
-            <div class="row">
+            <div class="row" id="presentTime">
                 <div class="col-md-4">
                     <h3>Present</h3>
                 </div>
@@ -164,13 +189,14 @@
             <hr>
         </main>
         <footer>
+            <a href="#biositeNav" id="backToTop"><i class="fa fa-arrow-circle-o-up"> Back to Top</i></a>
             <address>
                 Jonathan Roland<br>
                 123 Fake Street<br>
                 Knoxville, TN<br>
                 379XX<br>
                 Web Site:
-                <a class="myWorkUrl" href="www.pstcc.edu" target="_parent">Pellissippi State Community College</a>
+                <a class="myWorkUrl" href="https://www.pstcc.edu" target="_blank">Pellissippi State Community College</a>
             </address>
         </footer>
     </body>
