@@ -4,12 +4,14 @@ a:link{
     text-decoration: none;
 }
 
-a:visited{
-    color: #642667;
-}
-
+/*
 a:hover{
     color: #CE0058;
+}
+*/
+
+a:visited{
+    color: #D7D2CB;
 }
 
 body{
@@ -76,5 +78,15 @@ p{
     line-height: 1.4em;
     padding: .1em;
     float: right;
+}
 
+.backToTop{
+    float: right;
+    color: #D7D2CB;
+}
+
+.navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
