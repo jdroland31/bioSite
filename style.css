@@ -34,7 +34,7 @@ h1{
     font-family: 'Noto Sans JP', Verdana, Arial, sans-serif;
     font-weight: 600;
     background-color: #E87722;
-    padding: 0.1em;
+    padding: 0.2em;
     color: white;
     text-align: center;
 }
@@ -45,14 +45,16 @@ h3{
     background-color: #8B1F41;
     padding: 0.15em;
     color: white;
+    text-indent:10px;
 }
 
 h6{
     font-family: 'Montserrat', Verdana, Arial, sans-serif;
-    font-weight:300
+    font-weight:300;
     color: #642667;
     padding: 0.15em;
     text-align: right;
+    margin-right: 10px;
 }
 
 hr{
@@ -81,6 +83,7 @@ p{
     line-height: 2em;
     padding: .1em;
     float: right;
+    margin-right:20px;
 }
 
 .backToTop{
@@ -98,4 +101,16 @@ p{
     position: fixed;
     top: 0;
     width: 100%;
+}
+
+.nav-link:hover{
+    color: #FFFFFF;
+}
+
+#myWorkUrl:hover,#backToTop:hover{
+    color: #FFFFFF;
+}
+
+#myWorkUrl:visited,#backToTop:visited{
+    color: #2CD5C4;
 }
