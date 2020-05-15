@@ -4,24 +4,12 @@ a:link{
     text-decoration: none;
 }
 
-/*
-a:hover{
-    color: #CE0058;
-}
-*/
-
 a:visited{
     color: #D7D2CB;
 }
 
-body{
-/*    background-color: #D7D2CB; */
-
-}
-
 div{
     background-color: #D7D2CB;
-/*    color: #FFFFFF;*/
 }
 
 footer{
@@ -48,13 +36,13 @@ h3{
     text-indent:10px;
 }
 
-h6{
+h6.footer-element{
     font-family: 'Montserrat', Verdana, Arial, sans-serif;
     font-weight:300;
     color: #642667;
     padding: 0.15em;
     text-align: right;
-    margin-right: 10px;
+    float: right;
 }
 
 hr{
@@ -67,14 +55,6 @@ hr{
 html{
     font-size: 16px;
 }
-
-/*
-img{
-    width:450px;
-    float: right;
-    padding-bottom: 5px;
-}
-*/
 
 p{
     font-family: 'Montserrat', Verdana, Arial, sans-serif;
@@ -89,6 +69,12 @@ p{
 .backToTop{
     float: right;
     color: #D7D2CB;
+}
+
+.footer-element{
+    background-color: #75787B;
+    color: #FFFFFF;
+    padding: 0.15em;
 }
 
 .side-img{
